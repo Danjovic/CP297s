@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name CP297s)(type Legacy)(uri ${KIPRJMOD}/CP297s.lib)(options "")(descr ""))
+  (lib (name 74ls00)(type Legacy)(uri ${KIPRJMOD}/74ls00.lib)(options "")(descr ""))
 )
