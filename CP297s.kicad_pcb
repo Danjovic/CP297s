@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 13)
+    (drawings 14)
     (tracks 3213)
     (modules 125)
     (nets 216)
@@ -10,8 +10,8 @@
 
   (page "A4" portrait)
   (layers
-    (0 "F.Cu" signal)
-    (31 "B.Cu" signal)
+    (0 "F.Cu" signal hide)
+    (31 "B.Cu" signal hide)
     (32 "B.Adhes" user)
     (33 "F.Adhes" user)
     (34 "B.Paste" user)
@@ -651,7 +651,7 @@
 
   (module "CP297s:Placa_CP200S" locked (layer "F.Cu") (tedit 5D365FAD) (tstamp 5D2406BB)
     (at 25.4 203.2)
-    (fp_text reference "PCB1" (at 14.605 -0.889) (layer "F.SilkS")
+    (fp_text reference "PCB1" (at 3.175 -1.27) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "Placa_CP200S" (at 6.096 -0.889) (layer "F.Fab")
@@ -7291,6 +7291,9 @@
       (xy -15.4305 -3.378654)) (layer "F.SilkS") (width 0.01))
   )
 
+  (gr_text "PCB V1.0" (at 41.91 50.8) (layer "F.SilkS")
+    (effects (font (size 1.5 1.5) (thickness 0.25)))
+  )
   (gr_text "MEM\nOPT" (at 99.06 49.53) (layer "F.SilkS") (tstamp 5D3825BD)
     (effects (font (size 1 1) (thickness 0.15)))
   )
